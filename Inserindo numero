@@ -1,0 +1,13 @@
+# Exemplo de tratamento de erro com except.
+
+while True:
+
+    try:
+        numeros = float(input("Digite um número"))
+
+    except ValueError:
+        print("Valor invalido!")
+        print("Tente Novamente!")
+    else:
+        print("Número aceito!")
+        break
